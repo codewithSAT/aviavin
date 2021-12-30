@@ -1,15 +1,26 @@
 import React from 'react';
 import './navStyles.css';
+import { Link } from 'react-router-dom';
 import logo from '../assets/AVIAVIN-logos_transparent.png';
 const Navbar = () => {
   return (
     <div className="navbar">
-      <img id="logo" src={logo} />
-      <a id="services">services</a>
-      <a id="projects">projects</a>
-      <a id="about">about</a>
+      <a href="/home" style={{ marginRight: 'auto', fontSize: '20px' }}>
+        AVIAVIN
+      </a>
+      <a href="/services" id="services">
+        services
+      </a>
+      <a href="/projects" id="projects">
+        projects
+      </a>
+      <a href="/about" id="about">
+        about
+      </a>
 
-      <button id="contact">Contact</button>
+      <button id="contact" onClick={() => (window.location.href = '/contact')}>
+        Contact
+      </button>
     </div>
   );
 };
