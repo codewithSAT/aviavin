@@ -5,7 +5,7 @@ const Contactus = () => {
   const [person, setPerson] = useState({});
   const [data, setdata] = useState([]);
   const [showform, setshowform] = useState(true);
-
+  console.log(data);
   const handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
