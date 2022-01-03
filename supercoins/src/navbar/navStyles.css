@@ -2,14 +2,13 @@
   background-color: #000000;
   display: flex;
   justify-content: flex-end;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   padding: 10px;
 }
 
 a {
   padding: 5px;
+
   /* background-color: rgb(241, 241, 255); */
   text-decoration: none;
   border: none;
@@ -20,14 +19,20 @@ a {
   cursor: pointer;
 }
 
-.navbar a:hover {
-  color: #6c7073;
-  transition: 0.3s;
-  border-bottom: 1px solid #6c7073;
+.navbar a::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background:red ;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
 }
-
-.navbar a #logo {
-  /* margin-top: 5px; */
+.navbar a:hover::after{
+  width:100%;
+}
+#logo {
+  margin-top: 5px;
   margin-right: auto;
   height: 32px;
   width: 32px;
@@ -35,20 +40,20 @@ a {
 }
 
 #contact {
-  color: #000000;
-  background-color: rgb(255, 255, 255);
+  color: #6c7073;
+  /* background-color: rgb(2, 101, 231); */
   margin-right: 40px;
   margin-left: 40px;
-  padding: 5px 10px 5px 10px;
-  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 700;
   border-radius: 60px;
   border: none;
-  transition: transform 0.3s;
+  border-color: rgb(2, 101, 231);
+  transition: transform 0.4s;
   cursor: pointer;
 }
 
 #contact:hover {
-  background-color: #6c7073;
-  color: #ffffff;
-  font-weight: 500;
+  transform: scale(1.1);
 }
