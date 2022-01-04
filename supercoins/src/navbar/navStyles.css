@@ -23,13 +23,13 @@ a {
   content: '';
   width: 0%;
   height: 2px;
-  background:red ;
+  background: red;
   display: block;
   margin: auto;
-  transition: 0.5s;
+  transition: 0.3s;
 }
-.navbar a:hover::after{
-  width:100%;
+.navbar a:hover::after {
+  width: 100%;
 }
 #logo {
   margin-top: 5px;
