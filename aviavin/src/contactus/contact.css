@@ -1,0 +1,56 @@
+.formLayout {
+  padding: 2% 25% 2% 25%;
+  margin: 0 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.formLayout h2 {
+  font-size: 18px;
+  margin-bottom: 40px;
+  padding: 10px;
+  align-self: center;
+  justify-self: center;
+}
+.formLayout h3 {
+  font-size: 16px;
+  /* margin-bottom: 40px; */
+  /* padding: 10px 0px 20px 50px; */
+  align-self: center;
+  justify-self: center;
+}
+.formLayout input {
+  display: inline-block;
+  font-size: 12px;
+  color: #000000;
+  height: 32px;
+  width: 400px;
+  border: 1px solid #6c7073;
+  padding: 7px;
+  border-radius: 4px;
+}
+.formLayout textarea {
+  height: 64px;
+  width: 400px;
+  border: 1px solid #6c7073;
+  padding: 7px;
+  border-radius: 4px;
+}
+
+.element {
+  display: flex;
+  margin: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.formLayout button {
+  background-color: #272727;
+  color: white;
+  padding: 10px;
+  margin-top: 40px;
+  margin-left: 40%;
+  border-radius: 5px;
+  cursor: pointer;
+}
