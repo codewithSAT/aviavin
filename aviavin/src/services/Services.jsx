@@ -8,7 +8,7 @@ const Services = () => {
       .then((response) => console.log(response))
       .catch((response) => {
         setshowError(true);
-        console.log(response);
+        // console.log(response);
       });
   }, []);
 
