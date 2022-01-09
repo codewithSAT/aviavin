@@ -14,7 +14,7 @@ const Services = () => {
 
   return (
     <div>
-      API Calls
+      testing API Calls
       {showError && <h2>Something went wrong</h2>}
     </div>
   );
