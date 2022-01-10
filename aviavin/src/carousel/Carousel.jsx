@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import img1 from '../assets/carasoel1.png';
-import img2 from '../assets/carasoel2.png';
+import img2 from '../assets/new/4g1.jpg';
+import img1 from '../assets/new/phone.jpg';
 import img3 from '../assets/carasoel3.png';
 import './slide.css';
 const Carousel = () => {
@@ -14,6 +14,7 @@ const Carousel = () => {
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
+    opacity: 1.5,
   };
   return (
     <div class="carousel" style={styles}>

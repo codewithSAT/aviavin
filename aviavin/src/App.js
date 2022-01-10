@@ -7,7 +7,6 @@ import Carousel from './carousel/Carousel';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './about/About';
 import Contactus from './contactus/Contactus';
-import Services from './services/Services';
 
 export default function App() {
   return (
@@ -24,22 +23,10 @@ export default function App() {
               </>
             }
           />
-          <Route
-            path="/services"
-            element={
-              <>
-                <Products />
-                {/* <Products />
-                <Products />
-                <Products /> */}
-              </>
-            }
-          />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contactus />} />
         </Routes>
         <Footer />
-        <Services />
       </React.Fragment>
     </Router>
   );

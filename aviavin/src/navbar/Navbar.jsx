@@ -17,10 +17,9 @@ const Navbar = () => {
       <a href="/about" id="about">
         about
       </a>
-
-      <button id="contact" onClick={() => (window.location.href = '/contact')}>
+      <a href="/contact" id="contact">
         Contact
-      </button>
+      </a>
     </div>
   );
 };
