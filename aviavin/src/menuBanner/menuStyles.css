@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=La+Belle+Aurore&display=swap');
+
+.menu {
+  /* margin-top: 10vh; */
+  margin-bottom: 20vh;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.heading p {
+  font-size: 32px;
+  font-family: 'Dancing Script', cursive;
+  color: #333333;
+}
+.heading h5 {
+  color: #666666;
+  font-size: 24px;
+  font-family: 'Dancing Script', cursive;
+}
+.options {
+  margin-top: 10px;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.options a {
+  font-size: 16px;
+  transform: translateY(10px);
+  transition: transform 1s ease-in;
+  text-decoration: none;
+}
+
+.options a::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: red;
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+.options a:hover::after {
+  width: 100%;
+}

@@ -7,6 +7,7 @@ import Carousel from './carousel/Carousel';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './about/About';
 import Contactus from './contactus/Contactus';
+import Menu from './menuBanner/Menu';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
             element={
               <>
                 <Carousel />
+                <Menu />
                 <Products />
               </>
             }

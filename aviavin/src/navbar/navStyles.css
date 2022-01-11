@@ -1,11 +1,5 @@
 .navbar {
-  background-color: white;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.1),
-    rgba(0, 0, 0, 0.1)
-  );
-  color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.95));
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -14,6 +8,7 @@
 }
 
 .navbar a {
+  color: rgb(255, 255, 255);
   font-weight: 500;
   padding: 5px;
   text-decoration: none;

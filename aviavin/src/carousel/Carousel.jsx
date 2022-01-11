@@ -10,11 +10,10 @@ const Carousel = () => {
   const [count, setcount] = useState(0);
   const [img, setimg] = useState(img1);
   const styles = {
-    backgroundImage: `url(${images[count]})`,
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, .9) 10%,rgba(0, 0, 0, 0)),url(${images[count]})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    opacity: 1.5,
   };
   return (
     <div class="carousel" style={styles}>
@@ -30,7 +29,18 @@ const Carousel = () => {
       >
         {left}
       </a>
-
+      <article className="herocontent">
+        <h1
+          style={{ fontSize: '64px', marginBottom: '10vh', color: '#cccccc' }}
+        >
+          WELCOME TO AVIAVIN
+        </h1>
+        <br />
+        <br />
+        <h2>4G LTE Cellular Drone</h2>
+        <h3>Pilot the Drone from Any Location</h3>
+        <a href="">Learn More</a>
+      </article>
       <a
         id="rightbtn"
         onClick={() => {

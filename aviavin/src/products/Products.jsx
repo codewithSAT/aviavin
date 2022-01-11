@@ -10,28 +10,8 @@ const Products = () => {
   const images = [img1, img2, img3, drone2];
   let c = 0;
   return (
-    <><section class="drones">
-      <h1>WELCOME TO AVIAVIN</h1>
-      <p>WE PROVIDE</p>
-      <div class="row">
-        <div class="columbs">
-          <div class="D">
-          <h3><a href="">SURVILLENCE</a></h3>
-        </div>
-        </div>
-      
-      <div class="columbs">
-        <div class="b">
-        <h3><a href="">WORKSHOP</a></h3>
-      </div></div>
-      <div class="columbs">
-        <div class="c">
-        <h3><a href="">SERVICE</a></h3>
-      </div>
-      </div>
-      </div>
-    </section>
-    <div className="allProducts">
+    <>
+      <div className="allProducts">
         {productsData.map((product, c) => (
           // console.log(product);
           <article className="productCard">
@@ -40,7 +20,8 @@ const Products = () => {
             <p id="desc">{product.description}</p>
           </article>
         ))}
-      </div></>
+      </div>
+    </>
   );
 };
 
