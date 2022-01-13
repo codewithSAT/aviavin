@@ -2,7 +2,7 @@ import React from 'react';
 import './navStyles.css';
 import menuIcon from '../assets/bars-solid.svg';
 const Navbar = () => {
-  let x = document.querySelector('.navlinks');
+  let x = document.querySelectorAll('.navlinks');
   console.log(x);
   return (
     <div className="navbar">
@@ -26,10 +26,18 @@ const Navbar = () => {
       <a href="/services" className="navlinks">
         services
       </a>
-      <a href="/projects">projects</a>
-      <a href="/workshops">workshops</a>
-      <a href="/about">about</a>
-      <a href="/contact">Contact</a>
+      <a href="/projects" className="navlinks">
+        projects
+      </a>
+      <a href="/workshops" className="navlinks">
+        workshops
+      </a>
+      <a href="/about" className="navlinks">
+        about
+      </a>
+      <a href="/contact" className="navlinks">
+        Contact
+      </a>
     </div>
   );
 };

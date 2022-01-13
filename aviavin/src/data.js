@@ -1,46 +1,112 @@
-export const productsData = [
+export const servicesData = [
   {
-    productname: 'GLIDER PLANES',
+    id: 'gfdjkdhscvkvbcvkclk1324',
+    servicename: 'GLIDER PLANES',
     description:
       'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.',
-    image: '../assets/new/4g1.jpg',
+    image: '../assets/new/droneShot.jpg',
   },
   {
-    productname: 'TELONS',
+    id: 'gfdjkdhscvkvbcvkclk4567',
+    servicename: 'TELONS',
     description:
       'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.photography',
-    image: '../assets/carasoel2.png',
+    image: '../assets/new/droneShot.jpg',
   },
   {
-    productname: 'MULTIROATORS',
+    id: 'gfdjkdhscvkvbcvkclk8977',
+    servicename: 'MULTIROATORS',
     description:
       'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.photography',
-    image: '../assets/new/greenDrone.jpg',
+    image: '../assets/new/droneShot.jpg',
   },
-  // {
-  //   productname: 'ENGINE PLANES',
-  //   description:
-  //     'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging. It also offers omnidirectional obstacle sensing for a smooth flight experience, a max flight time of 46 minutes, and a max transmission range of 15 km. Every upgrade of DJI Mavic 3 sets a new standard for aerial photography',
-  //   image: '',
-  // },
-  // {
-  //   productname: 'mavic',
-  //   description:
-  //     'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging. It also offers omnidirectional obstacle sensing for a smooth flight experience, a max flight time of 46 minutes, and a max transmission range of 15 km. Every upgrade of DJI Mavic 3 sets a new standard for aerial photography',
-  // },
-  // {
-  //   productname: 'mavic',
-  //   description:
-  //     'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging. It also offers omnidirectional obstacle sensing for a smooth flight experience, a max flight time of 46 minutes, and a max transmission range of 15 km. Every upgrade of DJI Mavic 3 sets a new standard for aerial photography',
-  // },
-  // {
-  //   productname: 'mavic',
-  //   description:
-  //     'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging. It also offers omnidirectional obstacle sensing for a smooth flight experience, a max flight time of 46 minutes, and a max transmission range of 15 km. Every upgrade of DJI Mavic 3 sets a new standard for aerial photography',
-  // },
-  // {
-  //   productname: 'mavic',
-  //   description:
-  //     'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging. It also offers omnidirectional obstacle sensing for a smooth flight experience, a max flight time of 46 minutes, and a max transmission range of 15 km. Every upgrade of DJI Mavic 3 sets a new standard for aerial photography',
-  // },
+];
+
+export const projectsData = [
+  {
+    id: 'gfdjkdhscvkvbcvkclkscmd',
+    projectname: 'GLIDER PLANES',
+    description:
+      'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.',
+    image: '../assets/new/droneShot.jpg',
+  },
+  {
+    id: 'gfdjkdhscvkvbcvchdbfjsf',
+    projectname: 'TELONS',
+    description:
+      'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.photography',
+    image: '../assets/new/droneShot.jpg',
+  },
+  {
+    id: 'gfdjkdhscvkvbcvkceyurie',
+    projectname: 'MULTIROATORS',
+    description:
+      'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.photography',
+    image: '../assets/new/droneShot.jpg',
+  },
+  {
+    id: 'gfdj45hscvkvbcvkclkscmd',
+    projectname: 'GLIDER PLANES',
+    description:
+      'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.',
+    image: '../assets/new/droneShot.jpg',
+  },
+  {
+    id: 'gfdj78hscvkvbcvchdbfjsf',
+    projectname: 'TELONS',
+    description:
+      'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.photography',
+    image: '../assets/new/droneShot.jpg',
+  },
+  {
+    id: 'gfdj81hscvkvbcvkceyurie',
+    projectname: 'MULTIROATORS',
+    description:
+      'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.photography',
+    image: '../assets/new/droneShot.jpg',
+  },
+];
+export const workshopsData = [
+  {
+    id: 'gfdjkdydgjhgfggfclkscmd',
+    workshopname: 'GLIDER PLANES',
+    description:
+      'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.',
+    image: '../assets/new/droneShot.jpg',
+  },
+  {
+    id: 'gf46kdhscvkvbcvchdbfjsf',
+    workshopname: 'TELONS',
+    description:
+      'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.photography',
+    image: '../assets/new/droneShot.jpg',
+  },
+  {
+    id: 'gfdjkdh8989vbcvkceyurie',
+    workshopname: 'MULTIROATORS',
+    description:
+      'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.photography',
+    image: '../assets/new/droneShot.jpg',
+  },
+  {
+    id: 'gfdjkdydgj1212gfclkscmd',
+    workshopname: 'GLIDER PLANES',
+    description:
+      'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.',
+    image: '../assets/new/droneShot.jpg',
+  },
+  {
+    id: 'gf46kdhscvk5656chdbfjsf',
+    workshopname: 'TELONS',
+    description:
+      'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.photography',
+    image: '../assets/new/droneShot.jpg',
+  },
+  {
+    id: 'gfdjkdh8989vb4545eyurie',
+    workshopname: 'MULTIROATORS',
+    description:
+      'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.photography',
+    image: '../assets/new/droneShot.jpg',
+  },
 ];

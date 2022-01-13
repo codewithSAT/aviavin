@@ -1,0 +1,31 @@
+.workshops {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+.workshop {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5vh;
+  flex-wrap: wrap;
+}
+
+.workshopContent {
+  /* border-right: 1px dotted black; */
+  border-top: 1px dotted black;
+  border-bottom: 1px solid black;
+
+  padding: 10vh;
+  height: 300px;
+  width: 500px;
+}
+
+.workshopImage {
+  align-self: center;
+  border-radius: 32px;
+  height: 250px;
+  width: 250px;
+}

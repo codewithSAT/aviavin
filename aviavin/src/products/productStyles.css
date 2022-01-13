@@ -7,6 +7,15 @@
   background-color: rgb(255, 255, 255);
 }
 
+.productCard #image {
+  margin: 5px;
+  height: 250px;
+  width: 250px;
+}
+.productCard #name {
+  font-size: 20px;
+  text-transform: uppercase;
+}
 .contentSection .heading {
   margin-top: 40px;
   font-size: xx-large;
@@ -32,16 +41,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-}
-
-.productCard #image {
-  margin: 5px;
-  height: 250px;
-  width: 250px;
-}
-.productCard #name {
-  font-size: 20px;
-  text-transform: uppercase;
 }
 
 @media (max-width: 500px) {

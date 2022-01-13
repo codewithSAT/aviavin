@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-const Services = () => {
-  const [showError, setshowError] = useState(false);
-  useEffect(() => {
-    axios
-      .get('https://reqres.in/api/usSat')
-      .then((response) => console.log(response))
-      .catch((response) => {
-        setshowError(true);
-        // console.log(response);
-      });
-  }, []);
+import React from 'react';
+import { servicesData } from '../data';
+import img from '../assets/new/droneShot.jpg';
+import './serviceStyles.css';
 
+const Services = () => {
+  console.log(servicesData);
   return (
-    <div>
-      testing API Calls
-      {showError && <h2>Something went wrong</h2>}
+    <div className="services">
+      {servicesData.map((service) => (
+        <div className="service" key={service.id}>
+          <img src={img} alt="Smiley face" className="serviceImage"></img>
+          <div className="serviceContent">
+            <h2>{service.servicename}</h2>
+            <p>{service.description}</p>
+          </div>
+        </div>
+      ))}
     </div>
   );
 };

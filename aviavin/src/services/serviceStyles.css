@@ -1,0 +1,31 @@
+.services {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+.service {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5vh;
+  flex-wrap: wrap;
+}
+
+.serviceContent {
+  /* border-right: 1px dotted black; */
+  border-top: 1px dotted black;
+  border-bottom: 1px solid black;
+
+  padding: 10vh;
+  height: 300px;
+  width: 500px;
+}
+
+.serviceImage {
+  align-self: center;
+  border-radius: 32px;
+  height: 250px;
+  width: 250px;
+}

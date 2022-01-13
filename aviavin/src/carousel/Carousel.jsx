@@ -1,29 +1,39 @@
 import React, { useState } from 'react';
-import img2 from '../assets/new/4g1.jpg';
+import img3 from '../assets/new/4g1.jpg';
 import img1 from '../assets/new/phone.jpg';
-import img3 from '../assets/carasoel3.png';
+import img2 from '../assets/new/blurDrone.jpg';
 import './slide.css';
 const Carousel = () => {
   const images = [img1, img2, img3];
   const left = '<';
   const right = '>';
+  const messages = [
+    'Pilot the Drone from Any Location',
+    'Pilot the Drone from Any Location 2',
+    'Pilot the Drone from Any Location 3',
+  ];
   const [count, setcount] = useState(0);
-  const [img, setimg] = useState(img1);
+
+  const [img, setimg] = useState(images[0]);
+  const [msg, setmsg] = useState(messages[0]);
+
   const styles = {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, .9) 10%,rgba(0, 0, 0, 0)),url(${images[count]})`,
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, .9) 5%,rgba(0, 0, 0, 0)),url(${img})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   };
+
   return (
-    <div class="carousel" style={styles}>
+    <div className="carousel" style={styles}>
       <a
         id="leftbtn"
         onClick={() => {
-          if (count < 3 && count > 0) {
-            console.log(count);
+          if (count > 0 && count < 3) {
             setcount(count - 1);
+            console.log(count);
             setimg(images[count]);
+            setmsg(messages[count]);
           }
         }}
       >
@@ -38,16 +48,17 @@ const Carousel = () => {
         <br />
         <br />
         <h2>4G LTE Cellular Drone</h2>
-        <h3>Pilot the Drone from Any Location</h3>
+        <h3>{msg}</h3>
         <a href="">Learn More</a>
       </article>
       <a
         id="rightbtn"
         onClick={() => {
-          if (count < 2 && count > -1) {
-            console.log(count);
+          if (count > -1 && count < 2) {
             setcount(count + 1);
+            console.log(count);
             setimg(images[count]);
+            setmsg(messages[count]);
           }
         }}
       >
