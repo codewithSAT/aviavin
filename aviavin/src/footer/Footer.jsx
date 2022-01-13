@@ -46,10 +46,6 @@ const Footer = () => {
             <li>Repair Services</li>
           </ul>
         </section>
-        <section id="email">
-          <input type="email" placeholder="your email address" />
-          <img src={emailIcon} />
-        </section>
       </div>
       <div className="bottomline">
         <section id="copyright">

@@ -5,6 +5,9 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .navbar a {
@@ -30,10 +33,34 @@
   width: 100%;
 }
 
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  display: none;
+}
+.hamburger img {
+  width: 19px;
+  height: 19px;
+}
+
 #logo {
   margin-top: 5px;
   margin-right: auto;
   height: 32px;
   width: 32px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 760px) {
+  .navbar .navlinks {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    align-self: flex-end;
+  }
+}
+.navbar .navlinks.show {
+  display: flex;
 }

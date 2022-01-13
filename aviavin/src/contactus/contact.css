@@ -1,6 +1,6 @@
 .formLayout {
   padding: 2% 25% 2% 25%;
-  margin: 0 50px 0 50px;
+  margin: 50px 50px 0 50px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

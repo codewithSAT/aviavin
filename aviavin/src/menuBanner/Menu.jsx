@@ -5,7 +5,7 @@ const Menu = () => {
   return (
     <div class="menu">
       <section className="heading">
-        <p>Pilots take no special joy in walking. Pilots like flying.</p>
+        <p>" Pilots take no special joy in walking. Pilots like flying."</p>
         <h5>Niel Armstrong</h5>
       </section>
       <section className="options">

@@ -2,21 +2,22 @@
 
 .menu {
   /* margin-top: 10vh; */
-  margin-bottom: 20vh;
+  margin-bottom: 10vh;
 }
-.heading {
+.menu .heading {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 30px;
 }
-.heading p {
+.menu .heading p {
   font-size: 32px;
   font-family: 'Dancing Script', cursive;
+  font-weight: 500;
   color: #333333;
 }
-.heading h5 {
+.menu .heading h5 {
   color: #666666;
   font-size: 24px;
   font-family: 'Dancing Script', cursive;
@@ -27,12 +28,12 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  font-weight: 700;
 }
 
 .options a {
+  color: black;
   font-size: 16px;
-  transform: translateY(10px);
-  transition: transform 1s ease-in;
   text-decoration: none;
 }
 
