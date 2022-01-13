@@ -1,6 +1,6 @@
 import React from 'react';
 import { servicesData } from '../data';
-import img from '../assets/new/droneShot.jpg';
+import img from '../assets/droneShot.jpg';
 import './serviceStyles.css';
 
 const Services = () => {

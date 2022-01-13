@@ -1,6 +1,6 @@
 import React from 'react';
 import { workshopsData } from '../data';
-import img from '../assets/new/droneShot.jpg';
+import img from '../assets/droneShot.jpg';
 import './workshopStyles.css';
 
 const Workshops = () => {

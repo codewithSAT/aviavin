@@ -1,8 +1,8 @@
 import React from 'react';
 import { servicesData, projectsData, workshopsData } from '../data';
-import img1 from '../assets/new/greenDrone.jpg';
-import img2 from '../assets/new/robot.jpg';
-import img3 from '../assets/new/drone3.jpg';
+import img1 from '../assets/greenDrone.jpg';
+import img2 from '../assets/robot.jpg';
+import img3 from '../assets/drone3.jpg';
 import './productStyles.css';
 
 const Products = () => {
