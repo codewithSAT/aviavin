@@ -28,4 +28,7 @@
   border-radius: 32px;
   height: 250px;
   width: 250px;
+  background-repeat: 'no-repeat';
+  background-size: 'cover';
+  background-position: 'center';
 }
