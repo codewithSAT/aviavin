@@ -6,11 +6,7 @@ const Navbar = () => {
   console.log(x);
   return (
     <div className="navbar">
-      <a
-        href="/home"
-        id="logo"
-        style={{ marginRight: 'auto', fontSize: '20px' }}
-      >
+      <a href="/" id="logo" style={{ marginRight: 'auto', fontSize: '20px' }}>
         AVIAVIN
       </a>
       <button

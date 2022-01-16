@@ -11,6 +11,7 @@ import Menu from './menuBanner/Menu';
 import Projects from './projects/Projects';
 import Workshops from './workshops/Workshops';
 import Services from './services/Services';
+import StickyButton from './StickyButton';
 
 export default function App() {
   return (
@@ -19,9 +20,10 @@ export default function App() {
         <Navbar />
         <Routes>
           <Route
-            path="/home"
+            path="/"
             element={
               <>
+                <StickyButton />
                 <Carousel />
                 <Menu />
                 <Products /> <Footer />

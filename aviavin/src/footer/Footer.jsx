@@ -1,6 +1,5 @@
 import React from 'react';
 import './footerstyles.css';
-import emailIcon from '../assets/envelope-square-solid.svg';
 import instagram from '../assets/instagram.svg';
 import telegram from '../assets/telegram.svg';
 import facebook from '../assets/facebook.svg';
