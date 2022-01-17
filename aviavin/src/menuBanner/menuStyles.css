@@ -2,7 +2,7 @@
 
 .menu {
   /* margin-top: 10vh; */
-  margin-bottom: 10vh;
+  margin: 10vh;
 }
 .menu .heading {
   display: flex;

@@ -3,7 +3,7 @@ import Navbar from './navbar/Navbar';
 import './index.css';
 import Products from './products/Products';
 import Footer from './footer/Footer';
-import Carousel from './carousel/Carousel';
+import HeroSection from './hero/HeroSection';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './about/About';
 import Contactus from './contactus/Contactus';
@@ -24,7 +24,7 @@ export default function App() {
             element={
               <>
                 <StickyButton />
-                <Carousel />
+                <HeroSection />
                 <Menu />
                 <Products /> <Footer />
               </>
