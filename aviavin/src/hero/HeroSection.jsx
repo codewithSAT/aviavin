@@ -6,7 +6,7 @@ import './heroStyles.css';
 const HeroSection = () => {
   const images = [img1, img2, img3];
   const description = [
-    'Pilot the Drone from Any Location',
+    'Pilot the Drone from Any Location 1',
     'Pilot the Drone from Any Location 2',
     'Pilot the Drone from Any Location 3',
   ];
