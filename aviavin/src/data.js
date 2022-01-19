@@ -3,7 +3,7 @@ export const servicesData = [
     id: 'gfdjkdhscvkvbcvkclk1324',
     servicename: 'GLIDER PLANES',
     description:
-      'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.',
+      'DJI Mavic fee3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.',
     image: '../assets/droneShot.jpg',
   },
   {
