@@ -1,9 +1,22 @@
+.formbackground {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
 .formLayout {
-  padding: 2% 25% 2% 25%;
-  margin: 50px 50px 0 50px;
+  padding: 100px;
+  background-image: linear-gradient(
+    rgb(231, 231, 231),
+    rgba(230, 230, 230, 0.95)
+  );
+  border-radius: 1%;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 .formLayout h2 {
   font-size: 18px;
@@ -45,7 +58,7 @@
   align-items: flex-start;
 }
 
-.formLayout button {
+.formLayout #submitbtn {
   background-color: #272727;
   color: white;
   padding: 10px;
@@ -53,4 +66,16 @@
   margin-left: 40%;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.formLayout img {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: auto;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  background: none;
+  border: none;
 }

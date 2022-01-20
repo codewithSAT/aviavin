@@ -12,12 +12,13 @@ import Projects from './projects/Projects';
 import Workshops from './workshops/Workshops';
 import Services from './services/Services';
 import StickyButton from './StickyButton';
+import Videosection from './videosection/Videosection.jsx';
 
 export default function App() {
   return (
     <Router>
       <React.Fragment>
-        <Navbar />
+        <Navbar showform={false} />
         <Routes>
           <Route
             path="/"
@@ -25,6 +26,7 @@ export default function App() {
               <>
                 <StickyButton />
                 <HeroSection />
+                {/* <Videosection /> */}
                 <Menu />
                 <Products /> <Footer />
               </>
@@ -34,14 +36,7 @@ export default function App() {
           <Route path="/workshops" element={<Workshops />} />
           <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
-          <Route
-            path="/contact"
-            element={
-              <>
-                <Contactus /> <Footer />
-              </>
-            }
-          />
+          <Route path="/contact" element={<Contactus />} />
         </Routes>
       </React.Fragment>
     </Router>
