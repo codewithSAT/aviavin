@@ -1,18 +1,15 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { servicesData, projectsData, workshopsData } from '../data';
-import img1 from '../assets/survi.jpg';
-import img2 from '../assets/robot.jpg';
-import img3 from '../assets/drone3.jpg';
+
 import simg1 from '../assets/fighter-jet-solid.svg';
 import simg2 from '../assets/graduation-cap-solid.svg';
 import simg3 from '../assets/tools-solid.svg';
 
-import workshopImg from '../assets/work.jpg';
 import './productStyles.css';
 
 const Products = () => {
   let c = 0;
-  const images = [img1, img2, img3];
+
   const servicesImages = [simg1, simg2, simg3];
 
   const services = servicesData.slice(0, 3);
