@@ -1,6 +1,6 @@
 import React from 'react';
 import { servicesData, projectsData, workshopsData } from '../data';
-import img1 from '../assets/greenDrone.jpg';
+import img1 from '../assets/survi.jpg';
 import img2 from '../assets/robot.jpg';
 import img3 from '../assets/drone3.jpg';
 import './productStyles.css';
@@ -9,7 +9,7 @@ const Products = () => {
   let c = 0;
   const images = [img1, img2, img3];
 
-  const services = servicesData.slice(0, 3);
+  const services = servicesData.slice(1, 2);
   const projects = projectsData.slice(0, 3);
   const workshops = workshopsData.slice(0, 3);
 

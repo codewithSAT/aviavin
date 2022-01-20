@@ -3,7 +3,7 @@ export const servicesData = [
     id: 'gfdjkdhscvkvbcvkclk1324',
     servicename: 'GLIDER PLANES',
     description:
-      'DJI Mavic fee3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.',
+      'Aviavin provides surveillance services as well as models to perform surveillance . With surveillance drones land surveice , construction surveiace, pipeline surveice  .',
     image: '../assets/droneShot.jpg',
   },
   {
@@ -25,16 +25,16 @@ export const servicesData = [
 export const projectsData = [
   {
     id: 'gfdjkdhscvkvbcvkclkscmd',
-    projectname: 'GLIDER PLANES',
+    projectname: '4g Technology',
     description:
-      'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.',
-    image: '../assets/droneShot.jpg',
+      'with 4g technology we can control the drones from any part of the world with a simple 4g data connectin we have controlled the drones from different parts of the world like united states,gemany,australia,southafrica,goa. it is a promising tech and affordable just a good connections can connect your drone from anywhere ',
+    image: '../assets/4g.jpg',
   },
   {
     id: 'gfdjkdhscvkvbcvchdbfjsf',
-    projectname: 'TELONS',
+    projectname: 'TILT QUADPLANE',
     description:
-      'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.photography',
+      'A quadplane is a hybrid fixed-wing and multicopter aircraft. It looks like a conventional plane with additional rotors that enable it to take off and land vertically. The simplest quadplane has 4 additional rotors configured in the same way as a quadcopter – hence the name quadplane. The rotors are either affixed to the wings and/or body in addition to the quadplane’s forward flight propellers, or they rotate to transition the quadplane from hover to forward flight mode. Regardless of its rotor configuration, a quadplane always takes off and lands on its belly.',
     image: '../assets/droneShot.jpg',
   },
   {
@@ -72,7 +72,7 @@ export const workshopsData = [
     workshopname: 'GLIDER PLANES',
     description:
       'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.',
-    image: '../assets/droneShot.jpg',
+    image: '../assets/work.jpg',
   },
   {
     id: 'gf46kdhscvkvbcvchdbfjsf',
@@ -106,7 +106,7 @@ export const workshopsData = [
     id: 'gfdjkdh8989vb4545eyurie',
     workshopname: 'MULTIROATORS',
     description:
-      'DJI Mavic 3 is a powerful flagship camera drone equipped with a 4/3 CMOS Hasselblad camera to facilitate professional-level imaging.photography',
+      'D',
     image: '../assets/droneShot.jpg',
   },
 ];

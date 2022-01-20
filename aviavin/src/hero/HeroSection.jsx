@@ -6,14 +6,14 @@ import './heroStyles.css';
 const HeroSection = () => {
   const images = [img1, img2, img3];
   const description = [
-    'Pilot the Drone from Any Location 1',
-    'Pilot the Drone from Any Location 2',
-    'Pilot the Drone from Any Location 3',
+    'we provide training, conduct workshops and repair ',
+    'Control manually or give missions to drones from any part of the world',
+    'drones to spray pesticides over a large area in less time',
   ];
   const messages = [
-    '4G LTE Cellular Drone',
-    '5G LTE Cellular Drone',
-    '6G LTE Cellular Drone',
+    'Aviavin builts all  rc models from personal use to the industrial use',
+    'Our new 4G technology',
+    'Agricultural drones',
   ];
   const [count, setcount] = useState(0);
 
