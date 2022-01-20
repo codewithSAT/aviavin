@@ -1,6 +1,6 @@
 import React from 'react';
 import { projectsData } from '../data';
-import img from '../assets/4g1.jpg';
+import img from '../assets/droneShot.jpg';
 import './projectStyles.css';
 
 const Projects = () => {
