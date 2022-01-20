@@ -1,18 +1,19 @@
 import React from 'react';
 import './videostyles.css';
+import Trafic from './Trafic - 53902.mp4';
 const Videosection = () => {
   return (
-    <div class="container">
-      <video width="100%" height="100%" muted loop controls>
-        <source src="./droneshot.mp4" type="video/mp4" />
-      </video>
-      {/* <div class="overlay">
+    <div className="videoContainer">
+      <div class="videoOverlay">
+        <video autoPlay muted loop>
+          <source src={Trafic} type="video/mp4" />
+        </video>
+      </div>
+      <div className="videoContent">
         <h1>SURVILLENCE</h1>
-        <p1>survillance is all about</p1>
-        <a href="https://www.google.com/" class="button">
-          learn more
-        </a>
-      </div> */}
+        <p1>Analyse the structures using Remote sensing </p1>
+        <a href="">learn more</a>
+      </div>
     </div>
   );
 };

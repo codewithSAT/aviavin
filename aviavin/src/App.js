@@ -26,9 +26,10 @@ export default function App() {
               <>
                 <StickyButton />
                 <HeroSection />
-                {/* <Videosection /> */}
                 <Menu />
-                <Products /> <Footer />
+                <Videosection />
+                <Products />
+                <Footer />
               </>
             }
           />

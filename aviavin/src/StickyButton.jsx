@@ -16,7 +16,9 @@ const StickyButton = () => {
   };
   return (
     <>
-      <img src={whatsapp} style={imgStyles} />
+      <a href="https://wa.me/919346240348" target="_blank">
+        <img src={whatsapp} style={imgStyles} />
+      </a>
       {/* <button style={btnStyles}> */}
       {/* </button> */}
     </>

@@ -34,9 +34,6 @@ const Navbar = () => {
       <a href="/contact" className="navlinks">
         Contact
       </a>
-      <a className="navlinks" onClick={() => {}}>
-        X
-      </a>
     </div>
   );
 };

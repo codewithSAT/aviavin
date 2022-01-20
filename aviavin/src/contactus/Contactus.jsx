@@ -43,12 +43,22 @@ const Contactus = () => {
     <>
       <div className="formbackground">
         {showform ? (
-          <form className="formLayout">
-            <img src={closebutton} className="close-btn"></img>
+          <form
+            className="formLayout"
+            // action="https://formsubmit.io/sat.awesome19@gmail.com"
+            // method="POST"
+          >
+            {/* <img src={closebutton} className="close-btn"></img> */}
             <h2>
               We value your Interest. Please fill in the below details and
               submit your request.
             </h2>
+
+            <input
+              type="hidden"
+              name="_subject"
+              value="A new user has requested a Query..."
+            />
             <div className="element">
               <label htmlFor="firstname">First Name </label>
               <input
