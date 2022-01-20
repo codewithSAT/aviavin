@@ -30,11 +30,11 @@ const HeroSection = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      count < 3 ? setcount(count + 1) : setcount(0);
+      count < 2 ? setcount(count + 1) : setcount(0);
       setimg(images[count]);
       setmsg(messages[count]);
       setdesc(description[count]);
-    }, 5000);
+    }, 2000);
   }, [count]);
 
   return (
