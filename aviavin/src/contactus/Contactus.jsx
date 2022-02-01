@@ -27,15 +27,6 @@ const Contactus = () => {
       setshowform(false);
       // setTimeout(() => (window.location.href = '/home'), 5000);
     } else {
-      document.getElementById('firstname') == '' &&
-        document.getElementById('firstname').focus();
-      document.getElementById('email') == '' &&
-        document.getElementById('email').focus();
-
-      document.getElementById('phonenumber') == '' &&
-        document.getElementById('phonenumber').focus();
-      document.getElementById('description') == '' &&
-        document.getElementById('description').focus();
     }
   };
 
@@ -50,7 +41,7 @@ const Contactus = () => {
           >
             {/* <img src={closebutton} className="close-btn"></img> */}
             <h2>
-              We value your Interest. Please fill in the below details and
+              For any kind of queries Please fill in the below details and
               submit your request.
             </h2>
 
@@ -116,6 +107,10 @@ const Contactus = () => {
                 Submit Request
               </button>
             </div>
+            <h2>
+              We value your Interest. We will get back to you as soon as
+              possible.
+            </h2>
           </form>
         ) : (
           <div className="formLayout">
@@ -123,7 +118,7 @@ const Contactus = () => {
               We had received your request. Our team will get back to you with
               in 24 hours.
             </h2>
-            <h3>Thank you for your Interest...!!</h3>
+            <h2>Thank you for your Interest...!!</h2>
             {/* <h3>Redirecting to home screen.</h3> */}
           </div>
         )}

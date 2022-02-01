@@ -8,12 +8,12 @@ const Menu = () => {
         <p>" Pilots take no special joy in walking. Pilots like flying."</p>
         <h5>Niel Armstrong</h5>
       </section>
-      <section className="options">
+      {/* <section className="options">
         <a href="">SURVILLENCE</a>
         <a href="">WORKSHOP</a>
         <a href="">SERVICES</a>
         <a href="">PROJECTS</a>
-      </section>
+      </section> */}
     </div>
   );
 };

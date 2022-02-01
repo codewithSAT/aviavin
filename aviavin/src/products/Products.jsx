@@ -31,12 +31,12 @@ const Products = () => {
       <div className="heading">The workshops that we have conducted</div>
       <div className="workshopSection">
         <div className="workshopImageSection">
-          <h2 style={{ color: 'white', fontWeight: 'normal' }}>
+          {/* <h2 style={{ color: 'white', fontWeight: 'normal' }}>
             MALLAREDDY UNIVERSITY
-          </h2>
+          </h2> */}
         </div>
         <div className="workshopContentSection">
-          <h4>
+          <h4 style={{ fontWeight: 'normal' }}>
             The focus of this training is to give students a hands-on experience
             on Drone construction and flying that are used in industries
             involved in Drones, Augmented Reality and Virtual Reality.

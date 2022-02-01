@@ -4,10 +4,13 @@ import instagram from '../assets/instagram.svg';
 import telegram from '../assets/telegram.svg';
 import facebook from '../assets/facebook.svg';
 import youtube from '../assets/youtube.svg';
-import whatsapp from '../assets/whatsapp.svg';
+import Contactus from '../contactus/Contactus';
+
 const Footer = () => {
   return (
     <div className="mainfooter">
+      <Contactus />
+
       <div className="bottomline">
         <section id="copyright">
           <a style={{ fontSize: '20px' }}>AVIAVIN </a>

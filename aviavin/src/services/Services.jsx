@@ -12,17 +12,18 @@ const Services = () => {
   const images = [img1, img2, img3, img4];
   let count = 0;
 
-  console.log(servicesData);
+  const styles = {
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, .1) 1%, rgba(0, 0, 0, 0)7% ),url(${images[count]})`,
+    backgroundColor: 'green',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  };
+
   return (
     <div className="services">
       {servicesData.map((service) => (
-        <div className="service" key={service.id}>
-          <img
-            src={images[count]}
-            alt="Smiley face"
-            className="serviceImage"
-          ></img>
-
+        <div className="service" style={styles} key={service.id}>
           <div className="serviceContent">
             <h2>{service.servicename}</h2>
             <p>{service.description}</p>
