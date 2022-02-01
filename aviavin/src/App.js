@@ -22,6 +22,7 @@ export default function App() {
         <Routes>
           <Route
             path="/"
+            exact
             element={
               <>
                 <StickyButton />
@@ -37,7 +38,7 @@ export default function App() {
           <Route path="/workshops" element={<Workshops />} />
           <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/contact" element={<Contactus />} /> */}
+          <Route path="/contact" element={<Contactus />} />
         </Routes>
       </React.Fragment>
     </Router>

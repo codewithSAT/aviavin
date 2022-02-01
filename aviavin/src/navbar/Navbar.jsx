@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './navStyles.css';
 import menuIcon from '../assets/bars-solid.svg';
 const Navbar = () => {
@@ -6,9 +7,9 @@ const Navbar = () => {
   console.log(x);
   return (
     <div className="navbar">
-      <a href="/" id="logo" style={{ marginRight: 'auto', fontSize: '20px' }}>
+      <Link to="/" id="logo" style={{ marginRight: 'auto', fontSize: '20px' }}>
         AVIAVIN
-      </a>
+      </Link>
       <button
         className="hamburger"
         id="hamburger"
@@ -19,21 +20,21 @@ const Navbar = () => {
         <img src={menuIcon}></img>
       </button>
 
-      <a href="/services" className="navlinks">
+      <Link to="/services" className="navlinks">
         services
-      </a>
-      <a href="/projects" className="navlinks">
+      </Link>
+      <Link to="/projects" className="navlinks">
         projects
-      </a>
-      <a href="/workshops" className="navlinks">
+      </Link>
+      <Link to="/workshops" className="navlinks">
         workshops
-      </a>
-      <a href="/about" className="navlinks">
+      </Link>
+      <Link to="/about" className="navlinks">
         about
-      </a>
-      <a href="/contact" className="navlinks">
+      </Link>
+      <Link to="/contact" className="navlinks">
         Contact
-      </a>
+      </Link>
     </div>
   );
 };
