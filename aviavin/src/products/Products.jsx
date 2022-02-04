@@ -7,6 +7,7 @@ import simg3 from '../assets/WORKSHOP.svg';
 import simg4 from '../assets/tools-solid.svg';
 import simg5 from '../assets/CUSTOMIZE.svg';
 import simg6 from '../assets/FABRICATE.svg';
+import workImg from '../assets/work.jpg';
 
 import './productStyles.css';
 
@@ -16,6 +17,13 @@ const Products = () => {
   const servicesImages = [simg1, simg2, simg3, simg4, simg5, simg6];
 
   const services = servicesData.slice(0, 6);
+
+  const styles = {
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, .1) 5%,rgba(0, 0, 0, 0)),url(${workImg})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  };
 
   return (
     <div className="contentSection">
@@ -28,7 +36,7 @@ const Products = () => {
             involved in Drones, Augmented Reality and Virtual Reality.
           </h4>
         </div>
-        <div className="workshopImageSection"></div>
+        <div className="workshopImageSection" style={styles}></div>
       </div>
       <div className="heading">The services that we provide</div>
       <div className="products">
