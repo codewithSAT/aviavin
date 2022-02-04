@@ -1,6 +1,6 @@
 .videoContainer {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,15 +8,16 @@
   align-items: center;
 }
 .videoOverlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100%;
+  /* margin: 0; */
+  /* overflow: hidden; */
   z-index: -1;
 }
 
 .videoContent {
+  position: absolute;
+  /* z-index: 1; */
   color: white;
   font-size: 48px;
   display: flex;

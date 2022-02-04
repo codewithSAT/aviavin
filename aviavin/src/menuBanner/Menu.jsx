@@ -3,7 +3,7 @@ import './menuStyles.css';
 
 const Menu = () => {
   return (
-    <div className="menu">
+    <div className="Menu">
       <section className="heading">
         <p>" Pilots take no special joy in walking. Pilots like flying."</p>
         <h5>Niel Armstrong</h5>

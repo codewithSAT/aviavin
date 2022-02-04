@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=La+Belle+Aurore&display=swap');
 
-.menu {
+.Menu {
   /* margin-top: 10vh; */
   margin: 10vh;
 }
-.menu .heading {
+.Menu .heading {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 30px;
 }
-.menu .heading p {
+.Menu .heading p {
   font-size: 32px;
   font-family: 'Dancing Script', cursive;
   font-weight: 500;
   color: #333333;
 }
-.menu .heading h5 {
+.Menu .heading h5 {
   color: #666666;
   font-size: 24px;
   font-family: 'Dancing Script', cursive;

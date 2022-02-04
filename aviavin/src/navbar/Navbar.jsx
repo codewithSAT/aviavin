@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './navStyles.css';
-import menuIcon from '../assets/bars-solid.svg';
+import MenuIcon from '../assets/bars-solid.svg';
 const Navbar = () => {
   let x = document.querySelectorAll('.navlinks');
   console.log(x);
@@ -17,17 +17,17 @@ const Navbar = () => {
           // console.log(document.getElementsByClassName('navlinks'));
         }}
       >
-        <img src={menuIcon}></img>
+        <img src={MenuIcon}></img>
       </button>
 
-      <Link to="/services" className="navlinks">
-        services
+      <Link to="/" className="navlinks">
+        home
       </Link>
       <Link to="/projects" className="navlinks">
         projects
       </Link>
       <Link to="/workshops" className="navlinks">
-        workshops
+        blog
       </Link>
       <Link to="/about" className="navlinks">
         about
