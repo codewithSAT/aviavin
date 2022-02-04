@@ -28,6 +28,7 @@ const HeroSection = () => {
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
+    
   };
 
   useEffect(() => {
@@ -52,7 +53,7 @@ const HeroSection = () => {
       <article className="bannercontent">
         <h2>{msg}</h2>
         <h3>{desc}</h3>
-        <a href="">Learn More</a>
+        {/* <a href="">Learn More</a> */}
       </article>
     </div>
   );

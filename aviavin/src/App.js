@@ -13,6 +13,7 @@ import Workshops from './workshops/Workshops';
 import Services from './services/Services';
 import StickyButton from './StickyButton';
 import Videosection from './videosection/Videosection.jsx';
+import Surveillance from './surveillance/Surveillance';
 
 export default function App() {
   return (
@@ -34,6 +35,8 @@ export default function App() {
               </>
             }
           />
+
+          <Route path="/surveillance" element={<Surveillance />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/workshops" element={<Workshops />} />
           <Route path="/services" element={<Services />} />

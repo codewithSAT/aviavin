@@ -2,17 +2,32 @@ export const servicesData = [
   {
     id: 'gfdjkdhscvkvbcvkclk1324',
     servicename: 'SURVEILLANCE',
-    description: 'We provide Drone Surveillance.',
+    description: 'Automated Drone Surveillance.',
   },
   {
     id: 'gfdjkdhscvkvbcvkclk4567',
     servicename: 'TRAINING',
-    description: 'We provide trainings for all Aero models. ',
+    description: 'We train for all Aero models. ',
   },
   {
     id: 'gfdjkdhscvkvbcvkclk8977',
+    servicename: 'WORKSHOP',
+    description: 'Workshops on latest models',
+  },
+  {
+    id: 'gfdjkdhscvkvtyvkclk4567',
     servicename: 'REPAIR & ASSEMBLY',
-    description: 'We repair all the Aero models.',
+    description: 'We repair all Aero models. ',
+  },
+  {
+    id: 'gfdjkdhscvkvb23kclk8977',
+    servicename: 'CUSTOMIZE',
+    description: 'Customizable models.',
+  },
+  {
+    id: 'gfdjkdhscvkvb23kclk8971',
+    servicename: 'FABRICATION',
+    description: 'Fabricating RC models.',
   },
 ];
 

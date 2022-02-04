@@ -17,8 +17,9 @@
   text-transform: uppercase;
 }
 .contentSection .heading {
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-top: 5%;
+  /* margin-top: 20px;
+  margin-bottom: 40px; */
   font-size: xx-large;
 }
 
@@ -26,19 +27,20 @@
   display: flex;
   margin-top: 10px;
   padding: 10px;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  /* border-bottom: 1px solid gray; */
+  border-bottom: 0.1px dotted gray;
 }
 
 .productCard {
   display: flex;
   font-size: 16px;
-  margin: 10px;
-  padding: 16px;
+
+  padding: 80px;
+  width: 33%;
   height: 400px;
-  /* max-width: 100%; */
+
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;

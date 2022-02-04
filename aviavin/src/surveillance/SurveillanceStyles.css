@@ -1,0 +1,42 @@
+.sContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+    url('../assets/survey.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: white;
+}
+
+.sHeading {
+  font-size: 48px;
+}
+.sFeatures {
+  font-size: 24px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.item {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; /* width: 50%; */
+}
+.item img {
+  padding: 10%;
+  background-color: rgb(255, 255, 255);
+  width: 64px;
+  height: 64px;
+}

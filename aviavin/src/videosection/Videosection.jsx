@@ -10,9 +10,8 @@ const Videosection = () => {
       <div className="videoContent">
         <h1>SURVILLENCE</h1>
         <p1>Analyse the structures using Remote sensing </p1>
-        <a href="">learn more</a>
+        <a href="/surveillance">learn more</a>
       </div>
-
     </div>
   );
 };
