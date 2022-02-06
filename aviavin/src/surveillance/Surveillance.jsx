@@ -21,7 +21,7 @@ const Surveillance = () => {
             <div className="img">
               <img src={img1} alt="" />
             </div>
-            <div className="iDesc">Get Accurate Position</div>
+            <div className="iDesc">Position Accuracy </div>
           </div>
           <div className="item">
             <div className="iName">DURATION</div>
@@ -35,7 +35,7 @@ const Surveillance = () => {
             <div className="img">
               <img src={img3} alt="" />
             </div>
-            <div className="iDesc">Handsfree Survey</div>
+            <div className="iDesc">Handsfree</div>
           </div>
           <div className="item">
             <div className="iName">DISTANCE</div>
