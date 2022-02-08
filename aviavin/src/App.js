@@ -38,8 +38,8 @@ export default function App() {
 
           <Route path="/surveillance" element={<Surveillance />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/workshops" element={<Workshops />} />
-          <Route path="/services" element={<Services />} />
+          {/* <Route path="/workshops" element={<Workshops />} /> */}
+          {/* <Route path="/services" element={<Services />} /> */}
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contactus />} />
         </Routes>
